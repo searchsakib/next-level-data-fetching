@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "json-server": "json-server --watch fake-data-db.json --port 5000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"

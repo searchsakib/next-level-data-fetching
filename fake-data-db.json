@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Python Data Analysis Toolkit",
+      "description": "Explore the power of Python's data analysis libraries and tools, unraveling complex datasets with Pandas, NumPy, and Matplotlib. Learn to manipulate, visualize, and derive insights from data, empowering you to make informed decisions and create impactful solutions.",
+      "like_count": 250
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Frontend Frameworks Mastery",
+      "description": "Dive into the world of JavaScript frameworks like React, Angular, and Vue.js, mastering frontend development techniques. Build interactive, responsive, and dynamic web applications, harnessing the full potential of these frameworks to create engaging user interfaces.",
+      "like_count": 320
+    },
+    {
+      "id": 3,
+      "title": "Full-Stack Development Bootcamp",
+      "description": "Embark on a comprehensive journey to become a proficient full-stack developer. Learn server-side technologies such as Node.js and Express while integrating them with frontend frameworks. Acquire the skills needed to develop end-to-end applications from scratch.",
+      "like_count": 420
+    },
+    {
+      "id": 4,
+      "title": "Machine Learning with TensorFlow",
+      "description": "Delve into the realm of machine learning using TensorFlow, Google's powerful open-source library. Explore neural networks, deep learning, and model building techniques. Develop intelligent applications capable of learning and making predictions from data.",
+      "like_count": 380
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity Essentials Workshop",
+      "description": "Gain insights into cybersecurity fundamentals, learning techniques to protect systems from potential threats. Explore encryption, ethical hacking, and security protocols. Equip yourself with the essential skills to safeguard digital assets and mitigate risks.",
+      "like_count": 290
+    },
+    {
+      "id": 6,
+      "title": "Cloud Computing Solutions Architect",
+      "description": "Master the art of designing and implementing scalable, reliable, and cost-effective cloud solutions. Dive into services offered by AWS, Azure, or GCP, understanding cloud architecture and best practices. Become proficient in managing and optimizing cloud infrastructures.",
+      "like_count": 360
+    }
+  ]
+}
