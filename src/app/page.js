@@ -1,10 +1,10 @@
-import TitleDesign from '@/components/TitleDesign/TitleDesign';
+import Title from '@/components/Title/Title';
 import React from 'react';
 
 const HomePage = () => {
   return (
     <div>
-      <TitleDesign>Welcome to next level data fetching</TitleDesign>
+      <Title>Welcome to next level data fetching</Title>
     </div>
   );
 };
