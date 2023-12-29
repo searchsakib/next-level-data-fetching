@@ -3,13 +3,15 @@ import { PiThumbsUpBold } from 'react-icons/pi';
 
 const FetchingPosts = async () => {
   const response = await fetch('http://localhost:5000/posts', {
-    cache: 'force-cache',
+    next: {
+      revalidate: 5,
+    },
   });
   const posts = await response.json();
 
   return (
     <div>
-      <SubHeading>Total Posts: {posts.length}</SubHeading>
+      <SubHeading>Total Postsssss: {posts.length}</SubHeading>
 
       <div>
         {posts.map((post) => (

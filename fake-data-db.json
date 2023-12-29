@@ -4,13 +4,13 @@
       "id": 1,
       "title": "Python Data Analysis Toolkit",
       "description": "Explore the power of Python's data analysis libraries and tools, unraveling complex datasets with Pandas, NumPy, and Matplotlib. Learn to manipulate, visualize, and derive insights from data, empowering you to make informed decisions and create impactful solutions.",
-      "like_count": 250
+      "like_count": 6666
     },
     {
       "id": 2,
       "title": "JavaScript Frontend Frameworks Mastery",
       "description": "Dive into the world of JavaScript frameworks like React, Angular, and Vue.js, mastering frontend development techniques. Build interactive, responsive, and dynamic web applications, harnessing the full potential of these frameworks to create engaging user interfaces.",
-      "like_count": 320
+      "like_count": 100
     },
     {
       "id": 3,
