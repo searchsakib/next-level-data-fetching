@@ -2,7 +2,9 @@ import SubHeading from '@/components/SubHeading/SubHeading';
 import { PiThumbsUpBold } from 'react-icons/pi';
 
 const FetchingPosts = async () => {
-  const response = await fetch('http://localhost:5000/posts');
+  const response = await fetch('http://localhost:5000/posts', {
+    cache: 'force-cache',
+  });
   const posts = await response.json();
 
   return (
@@ -20,7 +22,7 @@ const FetchingPosts = async () => {
               <p> {post.description} </p>
               <div>
                 <div
-                  className="flex w-fit items-center gap-2 text-lg border rounded-2xl px-2
+                  className="flex w-fit items-center cursor-pointer gap-2 text-lg border rounded-2xl px-2
                 "
                 >
                   <span>
