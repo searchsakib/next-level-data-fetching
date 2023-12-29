@@ -1,17 +1,16 @@
 import SubHeading from '@/components/SubHeading/SubHeading';
+import Link from 'next/link';
 import { PiThumbsUpBold } from 'react-icons/pi';
 
 const FetchingPosts = async () => {
   const response = await fetch('http://localhost:5000/posts', {
-    next: {
-      revalidate: 5,
-    },
+    cache: 'no-store',
   });
   const posts = await response.json();
 
   return (
     <div>
-      <SubHeading>Total Postsssss: {posts.length}</SubHeading>
+      <SubHeading>Total Posts: {posts.length}</SubHeading>
 
       <div>
         {posts.map((post) => (
@@ -21,7 +20,7 @@ const FetchingPosts = async () => {
           >
             <div className="card-body">
               <h2 className="card-title"> {post.title} </h2>
-              <p> {post.description} </p>
+              <p> {post.short_description} </p>
               <div>
                 <div
                   className="flex w-fit items-center cursor-pointer gap-2 text-lg border rounded-2xl px-2
@@ -33,9 +32,11 @@ const FetchingPosts = async () => {
                   <span>{post.like_count}</span>
                 </div>
               </div>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">See More</button>
-              </div>
+              <Link href={`/posts/${post.id}`}>
+                <div className="card-actions justify-end">
+                  <button className="btn btn-primary">See More</button>
+                </div>
+              </Link>
             </div>
           </div>
         ))}

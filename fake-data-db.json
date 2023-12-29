@@ -3,38 +3,44 @@
     {
       "id": 1,
       "title": "Python Data Analysis Toolkit",
-      "description": "Explore the power of Python's data analysis libraries and tools, unraveling complex datasets with Pandas, NumPy, and Matplotlib. Learn to manipulate, visualize, and derive insights from data, empowering you to make informed decisions and create impactful solutions.",
-      "like_count": 6666
+      "short_description": "Discover the comprehensive capabilities of Python's data analysis libraries - Pandas, NumPy, and Matplotlib - enabling effective manipulation, visualization, and extraction of insights from intricate datasets.",
+      "description": "Embark on an illuminating journey exploring the 'Python Data Analysis Toolkit.' This course offers an in-depth understanding of Pandas, NumPy, and Matplotlib, the cornerstone libraries in Python for data analysis. Dive into data manipulation, statistical analysis, and data visualization techniques, honing the skills necessary to handle vast and complex datasets. Uncover methods to clean, transform, and extract meaningful insights, empowering you to make data-driven decisions with confidence. Whether you're an aspiring data scientist, analyst, or researcher, this toolkit equips you with the prowess to tackle real-world data challenges and derive actionable intelligence.\n\nUnlock the potential of Python's data analysis libraries to excel in the realms of data exploration, modeling, and interpretation, gaining a competitive edge in the data-driven landscape.",
+      "like_count": 550
     },
     {
       "id": 2,
       "title": "JavaScript Frontend Frameworks Mastery",
-      "description": "Dive into the world of JavaScript frameworks like React, Angular, and Vue.js, mastering frontend development techniques. Build interactive, responsive, and dynamic web applications, harnessing the full potential of these frameworks to create engaging user interfaces.",
-      "like_count": 100
+      "short_description": "Master the intricacies of React, Angular, and Vue.js, and learn to craft dynamic, interactive, and responsive web applications through this comprehensive mastery course.",
+      "description": "Step into the realm of modern web development with the 'JavaScript Frontend Frameworks Mastery' course. This immersive journey provides a deep dive into React, Angular, and Vue.js - the leading frontend frameworks powering dynamic web applications. Explore the foundations of each framework, understanding their component-based architecture and reactivity principles. Dive into state management, routing, and component lifecycles, mastering the tools necessary to build sophisticated user interfaces. With hands-on projects and practical exercises, this course enables you to architect and develop engaging web applications that meet industry standards, setting you on the path to becoming a proficient frontend developer.\n\nGain expertise in frontend frameworks to create seamless user experiences, setting new benchmarks in web development and opening doors to exciting career opportunities.",
+      "like_count": 670
     },
     {
       "id": 3,
       "title": "Full-Stack Development Bootcamp",
-      "description": "Embark on a comprehensive journey to become a proficient full-stack developer. Learn server-side technologies such as Node.js and Express while integrating them with frontend frameworks. Acquire the skills needed to develop end-to-end applications from scratch.",
-      "like_count": 420
+      "short_description": "Immerse yourself in a transformative journey to become a skilled full-stack developer by mastering backend technologies like Node.js, Express, and integrating them seamlessly with frontend frameworks.",
+      "description": "Embark on a transformative odyssey into the world of full-stack development with the 'Full-Stack Development Bootcamp.' This immersive program is meticulously designed to equip you with the skills needed to excel in both backend and frontend development. Dive into backend technologies such as Node.js and Express, mastering server-side programming, RESTful APIs, and database integration. Combine these skills with frontend frameworks, gaining expertise in creating seamless, end-to-end web solutions. Through real-world projects and hands-on learning, you'll cultivate the ability to architect, develop, and deploy robust web applications from conception to implementation.\n\nMaster the art of full-stack development, positioning yourself as a versatile and in-demand professional capable of tackling complex projects and driving innovation in the digital landscape.",
+      "like_count": 820
     },
     {
       "id": 4,
       "title": "Machine Learning with TensorFlow",
-      "description": "Delve into the realm of machine learning using TensorFlow, Google's powerful open-source library. Explore neural networks, deep learning, and model building techniques. Develop intelligent applications capable of learning and making predictions from data.",
-      "like_count": 380
+      "short_description": "Embark on a comprehensive journey into machine learning using TensorFlow, exploring neural networks, deep learning, and deploying predictive models.",
+      "description": "Embark on an enthralling journey into the realm of artificial intelligence and machine learning with the 'Machine Learning with TensorFlow' course. This comprehensive program focuses on TensorFlow, Google's powerful open-source library for machine learning. Delve into foundational concepts, neural networks, and deep learning methodologies, gaining hands-on experience in training and deploying machine learning models. Explore various algorithms and techniques to solve complex problems, understanding how to analyze and interpret data effectively. With practical applications and real-world projects, this course empowers you to develop intelligent systems capable of making predictions, recognizing patterns, and solving real-world challenges, propelling you into the forefront of the evolving field of machine learning.\n\nMaster the art of machine learning, leveraging TensorFlow's capabilities to innovate and drive advancements across industries, becoming a trailblazer in the realm of artificial intelligence.",
+      "like_count": 730
     },
     {
       "id": 5,
       "title": "Cybersecurity Essentials Workshop",
-      "description": "Gain insights into cybersecurity fundamentals, learning techniques to protect systems from potential threats. Explore encryption, ethical hacking, and security protocols. Equip yourself with the essential skills to safeguard digital assets and mitigate risks.",
-      "like_count": 290
+      "short_description": "Gain comprehensive insights into cybersecurity essentials encompassing encryption, ethical hacking, and robust security protocols to safeguard digital assets from evolving threats.",
+      "description": "Dive into the critical realm of cybersecurity with the 'Cybersecurity Essentials Workshop.' This workshop offers a holistic understanding of fundamental cybersecurity principles and strategies. Learn encryption techniques, ethical hacking methodologies, and security protocols crucial for safeguarding digital assets against evolving cyber threats. Explore the intricacies of cybersecurity domains, identifying vulnerabilities, and implementing robust defense mechanisms to protect systems and sensitive data. With hands-on labs and scenario-based learning, this workshop equips you with the foundational knowledge and practical skills necessary to fortify digital infrastructure and navigate the constantly evolving cybersecurity landscape.\n\nBecome a guardian of digital security, equipped to mitigate cyber risks and protect critical assets from evolving threats, making invaluable contributions to secure digital environments.",
+      "like_count": 890
     },
     {
       "id": 6,
       "title": "Cloud Computing Solutions Architect",
-      "description": "Master the art of designing and implementing scalable, reliable, and cost-effective cloud solutions. Dive into services offered by AWS, Azure, or GCP, understanding cloud architecture and best practices. Become proficient in managing and optimizing cloud infrastructures.",
-      "like_count": 360
+      "short_description": "Become proficient in designing scalable, secure, and cost-effective cloud solutions by mastering cloud architecture and services from leading providers like AWS, Azure, or GCP.",
+      "description": "Embark on a transformative journey to become a 'Cloud Computing Solutions Architect.' This comprehensive program is designed to hone your skills in cloud architecture and services offered by industry giants such as AWS, Azure, or GCP. Dive deep into designing and implementing scalable, secure, and cost-effective cloud solutions, understanding best practices and architectural patterns. Acquire expertise in managing cloud infrastructures, optimizing performance, and ensuring high availability and reliability. With a focus on real-world case studies and hands-on labs, this program equips you with the skills to architect, implement, and manage robust cloud solutions, making you a valuable asset in today's digital transformation landscape.\n\nMaster the art of cloud computing, designing resilient and scalable solutions that drive innovation and efficiency, becoming a catalyst for organizational success in the digital era.",
+      "like_count": 980
     }
   ]
 }
