@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import { PiThumbsUpBold } from 'react-icons/pi';
 
+export async function generateStaticParams() {
+  return [{ postId: '1' }, { postId: '2' }];
+}
+
 const PostDetails = async ({ params }) => {
   const res = await fetch(`http://localhost:5000/posts/${params.postId}`);
   const dynamicPost = await res.json();
