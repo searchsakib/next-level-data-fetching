@@ -18,7 +18,7 @@ const AllUsers = () => {
   if (loading) {
     return (
       <div className="flex flex-col justify-center items-center h-screen">
-        <span className="loading loading-bars w-[150px]"></span>
+        <span className="loading loading-bars w-36"></span>
       </div>
     );
   }
