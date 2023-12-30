@@ -2,7 +2,16 @@ import Link from 'next/link';
 import { PiThumbsUpBold } from 'react-icons/pi';
 
 export async function generateStaticParams() {
-  return [{ postId: '1' }, { postId: '2' }];
+  const res = await fetch('http://localhost:5000/posts');
+  const posts = await res.json();
+  const informations = posts.slice(0, 4).map((post) => {
+    return {
+      postId: post.id + '',
+    };
+  });
+  console.log(informations);
+  return informations;
+  // return [{ postId: '1' }, { postId: '2' }];
 }
 
 const PostDetails = async ({ params }) => {
