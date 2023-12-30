@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Title from '../Title/Title';
+import styles from './AllUsers.module.css';
 
 const AllUsers = () => {
   const [allUsers, setAllUsers] = useState([]);
@@ -24,6 +25,7 @@ const AllUsers = () => {
 
   return (
     <div>
+      <h2 className={styles.kaka}>GG EZ</h2>
       <Title>All Users length: {allUsers.length} </Title>
 
       <div>
@@ -33,8 +35,8 @@ const AllUsers = () => {
             className="max-w-lg p-6 m-6 rounded-md shadow-md mx-auto dark:bg-gray-900 dark:text-gray-50"
           >
             <div className="mt-6 mb-2">
-              <span className="block text-xs font-medium tracki uppercase dark:text-violet-400">
-                Name: {user.name}
+              <span className="block text-lg font-medium tracki uppercase dark:text-violet-400">
+                {user.name}
               </span>
               <h2 className="text-xl font-semibold tracki">
                 Email: {user.email}{' '}

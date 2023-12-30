@@ -1,6 +1,7 @@
 import SubHeading from '@/components/SubHeading/SubHeading';
 import Link from 'next/link';
 import { PiThumbsUpBold } from 'react-icons/pi';
+import design from './Posts.module.css';
 
 const FetchingPosts = async () => {
   const response = await fetch('http://localhost:5000/posts', {
@@ -13,6 +14,7 @@ const FetchingPosts = async () => {
       <SubHeading>Total Posts: {posts.length}</SubHeading>
 
       <div>
+        <h2 className={design.kaka}>HF Hf</h2>
         {posts.map((post) => (
           <div
             key={post.id}
